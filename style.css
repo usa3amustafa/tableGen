@@ -61,9 +61,12 @@ li:nth-child(2n):active {
 .table {
   width: calc(100% - 27px);
   background-color: #e8e8e4;
-  text-align: center;
 }
-
+.table-style {
+  color: blue;
+  padding: 4em;
+  word-spacing: 1em;
+}
 @media (max-width: 800px) {
   .numbers ul li {
     padding: 0.5em 1.5em;
